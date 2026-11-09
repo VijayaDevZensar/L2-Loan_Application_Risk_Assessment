@@ -1,0 +1,38 @@
+[
+  {
+    "n_users": 1,
+    "n_requests": 1,
+    "avg_latency_s": 0.0128,
+    "p95_latency_s": 0.0128,
+    "throughput_rps": 76.67,
+    "error_count": 0,
+    "error_rate": 0.0
+  },
+  {
+    "n_users": 5,
+    "n_requests": 5,
+    "avg_latency_s": 0.0798,
+    "p95_latency_s": 0.0815,
+    "throughput_rps": 58.82,
+    "error_count": 0,
+    "error_rate": 0.0
+  },
+  {
+    "n_users": 10,
+    "n_requests": 10,
+    "avg_latency_s": 0.1212,
+    "p95_latency_s": 0.1488,
+    "throughput_rps": 63.44,
+    "error_count": 0,
+    "error_rate": 0.0
+  },
+  {
+    "n_users": 20,
+    "n_requests": 20,
+    "avg_latency_s": 0.2541,
+    "p95_latency_s": 0.4035,
+    "throughput_rps": 40.66,
+    "error_count": 0,
+    "error_rate": 0.0
+  }
+]

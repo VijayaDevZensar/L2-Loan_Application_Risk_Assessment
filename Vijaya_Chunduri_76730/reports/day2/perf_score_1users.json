@@ -1,0 +1,9 @@
+{
+  "n_users": 1,
+  "n_requests": 1,
+  "avg_latency_s": 0.0117,
+  "p95_latency_s": 0.0117,
+  "throughput_rps": 81.68,
+  "error_count": 0,
+  "error_rate": 0.0
+}

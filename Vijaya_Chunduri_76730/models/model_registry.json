@@ -1,0 +1,61 @@
+{
+  "models": [
+    {
+      "version": "risk_model_v1.0",
+      "trained_at": "2026-08-21T03:16:15.153461+00:00",
+      "data_version": "loan_data_v1.0",
+      "schema_version": "schema_v1.0",
+      "pipeline_version": "pipeline_v1.0",
+      "algorithm": "LogisticRegression",
+      "seed": 42,
+      "features": [
+        "age",
+        "annual_income",
+        "employment_years",
+        "existing_debt",
+        "credit_score",
+        "loan_amount",
+        "loan_term_months",
+        "previous_defaults",
+        "debt_to_income",
+        "employment_type_enc",
+        "repayment_status_enc",
+        "region_enc"
+      ],
+      "metrics": {
+        "accuracy": 0.84,
+        "precision": 0.9275,
+        "recall": 0.8533,
+        "f1": 0.8889,
+        "roc_auc": 0.9189,
+        "confusion_matrix": [
+          [
+            20,
+            5
+          ],
+          [
+            11,
+            64
+          ]
+        ],
+        "n_train": 400,
+        "n_test": 100,
+        "positive_rate_train": 0.7525,
+        "positive_rate_test": 0.75
+      },
+      "thresholds": {
+        "recall_min": 0.75,
+        "f1_min": 0.72,
+        "roc_auc_min": 0.8
+      },
+      "status": "candidate",
+      "owner": "AI QE Capstone Team",
+      "checksum_sha256_prefix": "68c4c2e0765b83b6",
+      "model_path": "/mnt/nvme1/personal/parabank_project/end_to_end_ai_quality/ai-qe-capstone/models/risk_model_v1.pkl",
+      "scaler_path": "/mnt/nvme1/personal/parabank_project/end_to_end_ai_quality/ai-qe-capstone/models/scaler_v1.pkl",
+      "pipeline_path": "/mnt/nvme1/personal/parabank_project/end_to_end_ai_quality/ai-qe-capstone/models/pipeline_v1.pkl",
+      "notes": "Logistic regression trained on synthetic FinTrust Bank data. Advisory only. Not for production lending decisions."
+    }
+  ],
+  "latest": "risk_model_v1.0"
+}

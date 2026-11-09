@@ -1,0 +1,50 @@
+[
+  {
+    "feature": "repayment_status_enc",
+    "coefficient": -2.110343
+  },
+  {
+    "feature": "previous_defaults",
+    "coefficient": 1.815533
+  },
+  {
+    "feature": "credit_score",
+    "coefficient": -1.745734
+  },
+  {
+    "feature": "debt_to_income",
+    "coefficient": 1.348326
+  },
+  {
+    "feature": "annual_income",
+    "coefficient": -0.560127
+  },
+  {
+    "feature": "employment_years",
+    "coefficient": 0.364124
+  },
+  {
+    "feature": "loan_amount",
+    "coefficient": 0.312285
+  },
+  {
+    "feature": "age",
+    "coefficient": 0.224215
+  },
+  {
+    "feature": "region_enc",
+    "coefficient": 0.217048
+  },
+  {
+    "feature": "employment_type_enc",
+    "coefficient": 0.198745
+  },
+  {
+    "feature": "existing_debt",
+    "coefficient": 0.130932
+  },
+  {
+    "feature": "loan_term_months",
+    "coefficient": 0.031651
+  }
+]

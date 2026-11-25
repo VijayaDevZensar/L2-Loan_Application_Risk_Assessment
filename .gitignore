@@ -1,0 +1,7 @@
+Chroma/
+inputs/review_history.jsonl
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/

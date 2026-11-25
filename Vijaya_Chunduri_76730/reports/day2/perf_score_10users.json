@@ -1,9 +1,0 @@
-{
-  "n_users": 10,
-  "n_requests": 10,
-  "avg_latency_s": 0.1036,
-  "p95_latency_s": 0.1413,
-  "throughput_rps": 58.92,
-  "error_count": 0,
-  "error_rate": 0.0
-}
